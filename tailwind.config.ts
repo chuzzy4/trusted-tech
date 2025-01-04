@@ -25,16 +25,18 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#1A1F2C",
+          DEFAULT: "#4C2FF4",
+          dark: "#2013A5",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#1EAEDB",
+          DEFAULT: "#2013A5",
           foreground: "#FFFFFF",
         },
         accent: {
-          DEFAULT: "#9b87f5",
-          foreground: "#FFFFFF",
+          DEFAULT: "#FFE100",
+          secondary: "#FF6700",
+          foreground: "#1A1F2C",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -52,6 +54,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        nouvelr: ["NouvelR", "sans-serif"],
+        aeonik: ["Aeonik", "sans-serif"],
       },
       keyframes: {
         "slide-up": {
