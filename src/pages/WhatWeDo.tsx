@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Shield, Book, Globe, Users, Cog, FileText, Rocket, Tool } from "lucide-react";
+import { Shield, Book, Globe, Users, Cog, FileText, Rocket, Wrench } from "lucide-react";
 
 const WhatWeDo = () => {
   return (
@@ -103,7 +103,7 @@ const WhatWeDo = () => {
 
             {/* Safety Technology */}
             <div className="flex gap-4">
-              <Tool className="w-8 h-8 text-primary flex-shrink-0" />
+              <Wrench className="w-8 h-8 text-primary flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-bold mb-2 font-nouvelr">Safety Technology</h3>
                 <p className="text-gray-600 font-aeonik">

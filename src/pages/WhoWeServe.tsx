@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Laptop, Building2, Rocket, ShoppingBag, Government, Globe, Building, Users } from "lucide-react";
+import { Laptop, Building2, Rocket, ShoppingBag, Building, Globe, Landmark, Users } from "lucide-react";
 
 const WhoWeServe = () => {
   return (
@@ -52,7 +52,7 @@ const WhoWeServe = () => {
 
             {/* Government */}
             <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <Government className="w-12 h-12 text-primary mb-4" />
+              <Landmark className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-xl font-bold mb-3 font-nouvelr">Government Initiatives</h3>
               <p className="text-gray-600 font-aeonik">
                 Developing robust digital infrastructures for public sector projects.
