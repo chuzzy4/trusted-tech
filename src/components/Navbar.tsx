@@ -79,50 +79,58 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden animate-slide-down">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
-            <Link
-              to="/"
-              className="block px-3 py-2 text-gray-600 hover:text-secondary transition-colors duration-200"
-              onClick={() => setIsOpen(false)}
-            >
-              Home
-            </Link>
-            <Link
-              to="/about"
-              className="block px-3 py-2 text-gray-600 hover:text-secondary transition-colors duration-200"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </Link>
-            <Link
-              to="/what-we-do"
-              className="block px-3 py-2 text-gray-600 hover:text-secondary transition-colors duration-200"
-              onClick={() => setIsOpen(false)}
-            >
-              What we do
-            </Link>
-            <Link
-              to="/solutions"
-              className="block px-3 py-2 text-gray-600 hover:text-secondary transition-colors duration-200"
-              onClick={() => setIsOpen(false)}
-            >
-              Solutions
-            </Link>
-            <Link
-              to="/who-we-serve"
-              className="block px-3 py-2 text-gray-600 hover:text-secondary transition-colors duration-200"
-              onClick={() => setIsOpen(false)}
-            >
-              Who we serve
-            </Link>
-            <Link
-              to="/contact"
-              className="block px-3 py-2  text-gray-600 hover:text-secondary transition-colors duration-200"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact
-            </Link>
+        <div className="md:hidden animate-slide-down shadow-lg font-josefin">
+          <div className="px-4 pt-4 pb-6 space-y-2 bg-white rounded-lg">
+            {/* Header with Logo or Title */}
+            <div className="flex justify-between px-4 items-center mb-4">
+              <h3 className="text-lg font-semibold text-gray-800">Menu</h3>
+            </div>
+
+            {/* Navigation Links */}
+            <nav className="space-y-3">
+              <Link
+                to="/"
+                className="block px-4 py-3 text-base font-medium text-gray-700 bg-gray-100 hover:bg-secondary hover:text-white rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </Link>
+              <Link
+                to="/about"
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:bg-secondary hover:text-white rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                About
+              </Link>
+              <Link
+                to="/what-we-do"
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:bg-secondary hover:text-white rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                What We Do
+              </Link>
+              <Link
+                to="/solutions"
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:bg-secondary hover:text-white rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Solutions
+              </Link>
+              <Link
+                to="/who-we-serve"
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:bg-secondary hover:text-white rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Who We Serve
+              </Link>
+              <Link
+                to="/contact"
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:bg-secondary hover:text-white rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
+              </Link>
+            </nav>
           </div>
         </div>
       )}

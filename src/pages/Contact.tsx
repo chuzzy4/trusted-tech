@@ -120,7 +120,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="p-8 md:p-12">
+          <div className="py-3 md:p-12">
             <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
             <p className="text-gray-600 mb-8">
               Feel free to drop us a line below!
