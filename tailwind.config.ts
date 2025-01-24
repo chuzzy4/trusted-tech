@@ -21,6 +21,9 @@ export default {
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
+        darkBlue: "#002B5C",
+        lightRed: "#D32F2F",
+        lightRedHover: "#C62828",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -58,6 +61,8 @@ export default {
       fontFamily: {
         nouvelr: ["NouvelR", "sans-serif"],
         aeonik: ["Aeonik", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        josefin: ["Josefin Sans", "sans-serif"],
       },
       keyframes: {
         "slide-up": {

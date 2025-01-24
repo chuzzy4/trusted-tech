@@ -9,7 +9,7 @@ import WhatWeDo from "./pages/WhatWeDo";
 import Solutions from "./pages/Solutions";
 import WhoWeServe from "./pages/WhoWeServe";
 import Contact from "./pages/Contact";
-
+import "./App.css";
 const queryClient = new QueryClient();
 
 const App = () => (
