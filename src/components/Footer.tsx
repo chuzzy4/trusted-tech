@@ -12,13 +12,9 @@ const Footer = () => {
               alt=""
               className="md:h-12 h-12 object-cover  "
             />
-            <p className="text-sm font-aeonik">
-              Building safer, more resilient digital ecosystems across Africa
-              and beyond.
-            </p>
             <p className="text-sm font-aeonik ">
-              Building safer, more resilient digital ecosystems across Africa
-              and beyond.
+              Building safer, more resilient digital ecosystems <br /> across
+              Africa and beyond.
             </p>
           </div>
 

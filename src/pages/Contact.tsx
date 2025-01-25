@@ -83,7 +83,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 flex justify-center items-center -mt-40">
+      <section className="py-20 flex justify-center items-center md:-mt-40">
         <div className="container mx-auto max-w-5xl bg-white shadow-lg rounded-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
           {/* Contact Information */}
           <div
@@ -101,7 +101,7 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6" />
-                  <p>32, Avenue ve Newyork, 321994 Newyork</p>
+                  <p>32, Avenue Lagos Nigeria</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6" />
@@ -120,7 +120,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="py-3 md:p-12">
+          <div className="py-10 md:p-12">
             <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
             <p className="text-gray-600 mb-8">
               Feel free to drop us a line below!
@@ -207,24 +207,10 @@ const Contact = () => {
             className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4"
           >
             <div className="relative w-full md:w-80">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="absolute left-3 top-1/2 transform -translate-y-1/2 h-6 w-6 text-gray-400"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M16 12H3m13 0H3m13 0a2 2 0 11-4 0m4 0a2 2 0 10-4 0"
-                />
-              </svg>
               <Input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full border-gray-300 rounded-lg pl-12"
+                className="w-full border-gray-300 rounded-lg "
                 required
               />
             </div>

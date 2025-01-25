@@ -79,7 +79,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden animate-slide-down shadow-lg font-josefin">
+        <div className="md:hidden animate-slide-down shadow-lg font-lato">
           <div className="px-4 pt-4 pb-6 space-y-2 bg-white rounded-lg">
             {/* Header with Logo or Title */}
             <div className="flex justify-between px-4 items-center mb-4">

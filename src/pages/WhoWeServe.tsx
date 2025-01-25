@@ -97,7 +97,7 @@ const WhoWeServe = () => {
               <div className="flex gap-4">
                 <Globe className="w-10 h-10 text-purple-600 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-purple-800 font-nouvelr">
+                  <h3 className="md:text-xl text-md font-bold mb-2 text-purple-800 font-nouvelr">
                     Nonprofits and International Organizations
                   </h3>
                   <p className="text-gray-600 font-aeonik">
@@ -113,7 +113,7 @@ const WhoWeServe = () => {
               <div className="flex gap-4">
                 <Building className="w-10 h-10 text-blue-600 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-blue-800 font-nouvelr">
+                  <h3 className="md:text-xl text-md font-bold mb-2 text-blue-800 font-nouvelr">
                     Corporate Collaborations
                   </h3>
                   <p className="text-gray-600 font-aeonik">
@@ -129,7 +129,7 @@ const WhoWeServe = () => {
               <div className="flex gap-4">
                 <Building2 className="w-10 h-10 text-indigo-600 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-indigo-800 font-nouvelr">
+                  <h3 className="md:text-xl text-md font-bold mb-2 text-indigo-800 font-nouvelr">
                     Startups and Digital Services
                   </h3>
                   <p className="text-gray-600 font-aeonik">
@@ -145,7 +145,7 @@ const WhoWeServe = () => {
               <div className="flex gap-4">
                 <Users className="w-10 h-10 text-teal-600 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-teal-800 font-nouvelr">
+                  <h3 className="md:text-xl text-md font-bold mb-2 text-teal-800 font-nouvelr">
                     Local Communities
                   </h3>
                   <p className="text-gray-600 font-aeonik">

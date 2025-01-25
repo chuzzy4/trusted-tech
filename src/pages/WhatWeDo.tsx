@@ -97,7 +97,7 @@ const WhatWeDo = () => {
             <div className="flex gap-6 p-8 bg-gradient-to-br from-purple-100 to-blue-100 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-2 border border-purple-200">
               <Cog className="w-10 h-10 text-purple-600 flex-shrink-0" />
               <div>
-                <h3 className="text-2xl font-bold mb-3 font-nouvelr text-purple-800">
+                <h3 className="md:text-2xl text-lg font-bold mb-3 font-nouvelr text-purple-800">
                   Strategic Consultancy
                 </h3>
                 <p className="text-gray-700 font-aeonik">
@@ -111,7 +111,7 @@ const WhatWeDo = () => {
             <div className="flex gap-6 p-8 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-2 border border-blue-200">
               <Users className="w-10 h-10 text-blue-600 flex-shrink-0" />
               <div>
-                <h3 className="text-2xl font-bold mb-3 font-nouvelr text-blue-800">
+                <h3 className="md:text-2xl text-lg font-bold mb-3 font-nouvelr text-blue-800">
                   Product & Community Management
                 </h3>
                 <p className="text-gray-700 font-aeonik">
@@ -125,7 +125,7 @@ const WhatWeDo = () => {
             <div className="flex gap-6 p-8 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-2 border border-indigo-200">
               <FileText className="w-10 h-10 text-indigo-600 flex-shrink-0" />
               <div>
-                <h3 className="text-2xl font-bold mb-3 font-nouvelr text-indigo-800">
+                <h3 className="md:text-2xl text-lg font-bold mb-3 font-nouvelr text-indigo-800">
                   Internal Policy Development
                 </h3>
                 <p className="text-gray-700 font-aeonik">
@@ -139,7 +139,7 @@ const WhatWeDo = () => {
             <div className="flex gap-6 p-8 bg-gradient-to-br from-blue-100 to-teal-100 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-2 border border-teal-200">
               <Wrench className="w-10 h-10 text-teal-600 flex-shrink-0" />
               <div>
-                <h3 className="text-2xl font-bold mb-3 font-nouvelr text-teal-800">
+                <h3 className="md:text-2xl text-lg font-bold mb-3 font-nouvelr text-teal-800">
                   Safety Technology
                 </h3>
                 <p className="text-gray-700 font-aeonik">
