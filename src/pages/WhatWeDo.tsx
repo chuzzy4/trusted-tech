@@ -85,7 +85,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </section>
-      <div className="bg-yellow-500 h-5 mx-4"></div>
+      {/* <div className="bg-yellow-500 h-5 mx-4"></div> */}
       {/* Expertise Section */}
       <section className="py-20 bg-gradient-to-r from-purple-50 to-blue-50">
         <div className="container mx-auto px-4 max-w-7xl">

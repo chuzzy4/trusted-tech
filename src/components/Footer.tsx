@@ -69,9 +69,9 @@ const Footer = () => {
               Contact Info
             </h4>
             <ul className="space-y-2 font-aeonik">
-              <li>Email: info@trustedtech.africa</li>
-              <li>Phone: +123 456 7890</li>
-              <li>Address: Tech Hub, Innovation Street</li>
+              <li>Email: info@trustedtechafrica.com</li>
+              <li>Phone: +234 703 839 2825</li>
+              <li>Address: 147, Akowonjo Road, Lagos, Nigeria.</li>
             </ul>
           </div>
 

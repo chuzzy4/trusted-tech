@@ -45,12 +45,12 @@ const Index = () => {
               ethics, law, and public policy in today's digital landscape.
             </p>
             {/* Highlighted Quote */}
-            <div className="bg-white/80 backdrop-blur-sm md:p-4 p-2  md:px-0 rounded-full mb-10 shadow-lg">
+            <div className=" backdrop-blur-sm md:p-4 p-2  md:px-0 rounded-full mb-10 ">
               <p className="text-sm md:text-xl font-semibold text-secondary italic flex justify-center items-center gap-1 ">
-                <FaQuoteLeft className="mb-4 " />
+                <FaQuoteLeft className="mb-4 md:block hidden" />
                 Empowering Startups and Accelerators with Scalable, Secure Tech
                 Solutions.
-                <FaQuoteRight className="mb-4" />
+                <FaQuoteRight className="mb-4 md:block hidden" />
               </p>
             </div>
             {/* Image with Modern Styling */}

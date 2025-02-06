@@ -81,11 +81,6 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden animate-slide-down shadow-lg font-lato">
           <div className="px-4 pt-4 pb-6 space-y-2 bg-white rounded-lg">
-            {/* Header with Logo or Title */}
-            <div className="flex justify-between px-4 items-center mb-4">
-              <h3 className="text-lg font-semibold text-gray-800">Menu</h3>
-            </div>
-
             {/* Navigation Links */}
             <nav className="space-y-3">
               <Link

@@ -84,7 +84,7 @@ const Contact = () => {
 
       {/* Contact Section */}
       <section className="py-20 flex justify-center items-center md:-mt-40">
-        <div className="container mx-auto max-w-5xl bg-white shadow-lg rounded-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
+        <div className="container mx-auto max-w-5xl bg-white shadow-lg rounded-xl overflow-hidden mx-5 grid grid-cols-1 lg:grid-cols-2">
           {/* Contact Information */}
           <div
             className="relative text-white p-8 md:p-12 space-y-6 bg-cover bg-center"
@@ -101,19 +101,19 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6" />
-                  <p>32, Avenue Lagos Nigeria</p>
+                  <p>147, Akowonjo Road, Lagos, Nigeria.</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6" />
-                  <p>hello@trustedtech.com</p>
+                  <p>info@trustedtechafrica.com</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6" />
-                  <p>+3356 1589 2105</p>
+                  <p>+234 703 839 2825</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <FaWhatsapp className="w-6 h-6" />
-                  <p>+3356 1589 2100</p>
+                  <p>+234 705 449 4238</p>
                 </div>
               </div>
             </div>
