@@ -37,15 +37,8 @@ const Hero = () => {
   return (
     <div className="md:min-h-screen h-[600px] flex items-center  justify-center bg-gradient-to-br from-primary to-secondary text-white relative overflow-hidden">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 bg-[url('/fd.jpg')] bg-cover bg-center opacity-50"></div>
+      <div className="absolute inset-0 bg-[url('/bgf.svg')] bg-cover bg-center opacity-50"></div>
       <div className="absolute inset-0 bg-black/50"></div>
-
-      {/* Floating Graphics */}
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-accent/20 rounded-full blur-2xl animate-float"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-accent-secondary/20 rounded-full blur-2xl animate-float delay-2000"></div>
-        <div className="absolute top-1/3 right-1/3 w-24 h-24 bg-white/10 rounded-full blur-xl animate-float delay-4000"></div>
-      </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 z-10 ">
