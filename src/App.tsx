@@ -10,6 +10,7 @@ import Solutions from "./pages/Solutions";
 import WhoWeServe from "./pages/WhoWeServe";
 import Contact from "./pages/Contact";
 import "./App.css";
+import MeetOurTeam from "./pages/MeetOurTeam";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -20,7 +21,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about-tta" element={<About />} />
+          <Route path="/our-team" element={<MeetOurTeam />} />
           <Route path="/what-we-do" element={<WhatWeDo />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/who-we-serve" element={<WhoWeServe />} />

@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Shield, Users, Globe } from "lucide-react";
 import { motion } from "framer-motion";
-import MeetOurTeam from "./MeetOurTeam";
 
 const About = () => {
   return (
@@ -120,7 +119,6 @@ const About = () => {
             </div>
           </div>
         </section>
-        <MeetOurTeam />
         {/* Mission Section */}
         <section className="py-20 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
           <div className="container mx-auto md:px-20 px-6 relative z-10">
