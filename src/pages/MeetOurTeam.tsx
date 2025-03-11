@@ -57,7 +57,8 @@ const MeetOurTeam = () => {
     },
     {
       name: "Isaac Damian Ezirim",
-      image: "/iss.jpg",
+      image:
+        "https://res.cloudinary.com/karotcloud/image/upload/v1741689865/WhatsApp_Image_2025-03-11_at_11.41.11_zqhfxp.jpg",
       linkedin: "https://www.linkedin.com/in/isaacezirim/",
       role: "Co-Founder Trusted Tech Africa",
     },
@@ -93,15 +94,26 @@ const MeetOurTeam = () => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden "
               >
-                <div className="w-full h-96 overflow-hidden">
+                {/* Image Container with Scale Animation */}
+                <motion.div
+                  className="w-full h-96  overflow-hidden cursor-pointer"
+                  whileHover={{ scale: 1.05 }} // Scale up on hover
+                  transition={{
+                    type: "tween",
+                    ease: "easeInOut",
+                    duration: 0.3,
+                  }} // Smooth ease-in-out animation
+                >
+                  {/* <div className="w-full h-96 overflow-hidden"> */}
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover object-top" // Align image to the top
                   />
-                </div>
+                  {/* </div> */}
+                </motion.div>
                 <div className="p-6 text-center">
                   <h3 className="text-2xl font-bold font-nouvelr text-gray-900">
                     {member.name}
@@ -132,15 +144,26 @@ const MeetOurTeam = () => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden "
               >
-                <div className="w-full h-96 overflow-hidden">
+                {/* Image Container with Scale Animation */}
+                <motion.div
+                  className="w-full h-96  overflow-hidden cursor-pointer"
+                  whileHover={{ scale: 1.05 }} // Scale up on hover
+                  transition={{
+                    type: "tween",
+                    ease: "easeInOut",
+                    duration: 0.3,
+                  }} // Smooth ease-in-out animation
+                >
+                  {/* <div className="w-full h-96 overflow-hidden"> */}
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover object-top" // Align image to the top
                   />
-                </div>
+                  {/* </div> */}
+                </motion.div>
                 <div className="p-6 text-center">
                   <h3 className="text-2xl font-bold font-nouvelr text-gray-900">
                     {member.name}

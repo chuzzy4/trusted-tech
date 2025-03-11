@@ -11,6 +11,7 @@ import WhoWeServe from "./pages/WhoWeServe";
 import Contact from "./pages/Contact";
 import "./App.css";
 import MeetOurTeam from "./pages/MeetOurTeam";
+import ScrollToTop from "./components/ScrollToTop";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -19,15 +20,17 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about-tta" element={<About />} />
-          <Route path="/our-team" element={<MeetOurTeam />} />
-          <Route path="/what-we-do" element={<WhatWeDo />} />
-          <Route path="/solutions" element={<Solutions />} />
-          <Route path="/who-we-serve" element={<WhoWeServe />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/about-tta" element={<About />} />
+            <Route path="/our-team" element={<MeetOurTeam />} />
+            <Route path="/what-we-do" element={<WhatWeDo />} />
+            <Route path="/solutions" element={<Solutions />} />
+            <Route path="/who-we-serve" element={<WhoWeServe />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </ScrollToTop>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
