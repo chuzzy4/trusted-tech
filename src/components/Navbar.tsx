@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-2xl font-bold text-primary">
               <img
-                src="/logo.png"
+                src="/tts.svg"
                 alt="Logo"
                 className="md:h-14 h-12 object-cover"
               />

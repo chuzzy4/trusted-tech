@@ -78,16 +78,32 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-4 font-nouvelr">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-accent transition-colors">
+              <a
+                href="#"
+                className="hover:text-accent transition-colors"
+                target="_blank"
+              >
                 <Facebook size={24} />
               </a>
-              <a href="#" className="hover:text-accent transition-colors">
+              <a
+                href="https://x.com/Trustedtec945?t=wQntPjHSKtzb9oUa5WBJhw&s=09"
+                className="hover:text-accent transition-colors"
+                target="_blank"
+              >
                 <Twitter size={24} />
               </a>
-              <a href="#" className="hover:text-accent transition-colors">
+              <a
+                href="https://www.linkedin.com/company/106264093/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BG7V37or2S6CBTEZ7BL0zSA%3D%3D"
+                className="hover:text-accent transition-colors"
+                target="_blank"
+              >
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="hover:text-accent transition-colors">
+              <a
+                href="https://www.instagram.com/trustedtech_africa?igsh=MWZ3YmZkNXA3d2RoZQ=="
+                className="hover:text-accent transition-colors"
+                target="_blank"
+              >
                 <Instagram size={24} />
               </a>
             </div>
