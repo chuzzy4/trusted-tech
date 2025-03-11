@@ -67,7 +67,7 @@ const MeetOurTeam = () => {
   return (
     <>
       <Navbar />
-      <section className="py-20 bg-gradient-to-r  from-gray-50 to-white">
+      <section className="py-20  bg-gradient-to-r from-blue-50 to-blue-100">
         <div className="container mx-auto px-6">
           {/* Section Title */}
           <motion.div

@@ -27,9 +27,9 @@ const Index = () => {
         {/* Decorative Icons */}
         <div className="absolute inset-0 flex items-center justify-center opacity-20">
           <FaRocket className="w-24 h-24 text-blue-400 absolute top-10 left-10 animate-float" />
-          <FaShieldAlt className="w-24 h-24 text-purple-400 absolute bottom-10 right-10 animate-float-delay" />
+          {/* <FaShieldAlt className="w-24 h-24 text-purple-400 absolute bottom-10 right-10 animate-float-delay" /> */}
           <FaLightbulb className="w-24 h-24 text-pink-400 absolute top-20 right-20 animate-float" />
-          <FaChartLine className="w-24 h-24 text-indigo-400 absolute bottom-20 left-20 animate-float-delay" />
+          {/* <FaChartLine className="w-24 h-24 text-indigo-400 absolute bottom-20 left-20 animate-float-delay" /> */}
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
