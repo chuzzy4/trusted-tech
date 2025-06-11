@@ -12,6 +12,8 @@ import Contact from "./pages/Contact";
 import "./App.css";
 import MeetOurTeam from "./pages/MeetOurTeam";
 import ScrollToTop from "./components/ScrollToTop";
+import Resource from "./pages/Resource";
+import AdminComponent from "./components/DocumentUploader";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/what-we-do" element={<WhatWeDo />} />
             <Route path="/solutions" element={<Solutions />} />
             <Route path="/who-we-serve" element={<WhoWeServe />} />
+            <Route path="/resources" element={<Resource />} />
+            <Route path="/admin" element={<AdminComponent />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </ScrollToTop>

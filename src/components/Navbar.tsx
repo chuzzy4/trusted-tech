@@ -82,6 +82,13 @@ const Navbar = () => {
               <span className="absolute left-0 bottom-0 h-0.5 bg-accent w-0 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
+              to="/resources"
+              className="relative text-gray-800 hover:text-secondary transition-colors duration-200 group"
+            >
+              Resources{" "}
+              <span className="absolute left-0 bottom-0 h-0.5 bg-accent w-0 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+            <Link
               to="/contact"
               className="inline-flex items-center px-6 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors duration-200"
             >
@@ -168,6 +175,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Who We Serve
+              </Link>
+              <Link
+                to="/resources"
+                className="block px-4 py-3 text-lg font-medium text-gray-700 hover:bg-gray-100 rounded-lg transition-all duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Resources
               </Link>
               <Link
                 to="/contact"
